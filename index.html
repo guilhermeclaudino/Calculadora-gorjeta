@@ -15,16 +15,63 @@
         <section class="informacoes">
             <form action="">
                 <div class="conta">
-                    <label for="">Conta</label>
+                    <label for="conta">Conta</label>
                     <div>
                         <img src="./images/favicon-32x32.png" alt="icone cifrao">
-                        <input type="number" name="conta" id="conta">
+                        <input type="number" name="conta" id="conta" placeholder="0">
                     </div>
 
-                    
+              </div>
 
+
+              <div class="gorjeta">
+                <label for="outra">Selecione a gorjeta %</label>
+
+                <div>
+                    <input type="button" value="5%">
+                    <input type="button" value="10%">
+                    <input type="button" value="15%">
+                    <input type="button" value="25%">
+                    <input type="button" value="50%">
+                    <input type="number" name="outra" id="outra" placeholder="outra">
                 </div>
+
+              </div>
+
+              <div class="pessoa">
+
+                <label for="pessoas">quantidade de pessoa</label>
+                <p>Nao pode ser zero</p>
+                    <div>
+                        <img src="./images/icon-person.svg" alt="icone da pessoa">
+                        <input type="number" name="pessoas" id="pessoas" placeholder="0">
+                    </div>
+
+              </div>
             </form>
+
+        </section>
+
+        <section class="resultados">
+            <div class="gorjeta-total">
+                <p>
+                    <strong>Gorjeta</strong> <br>
+                    / pessoa
+                </p>
+
+                <strong>$ 0.00</strong>
+
+            </div>
+
+            <div class="total">
+                <p>
+                    <strong>Total</strong> <br>
+                    / pessoa
+                </p>
+
+                <strong>$ 0.00</strong>
+
+            </div>
 
         </section>
     </main>
